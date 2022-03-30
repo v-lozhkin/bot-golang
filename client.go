@@ -64,9 +64,9 @@ func (c *Client) DoWithContext(ctx context.Context, path string, params url.Valu
 		req.Method = http.MethodPost
 	}
 
-	c.logger.WithFields(logrus.Fields{
-		"api_url": apiURL,
-	}).Debug("requesting api")
+	//c.logger.WithFields(logrus.Fields{
+	//	"api_url": apiURL,
+	//}).Debug("requesting api")
 
 	resp, err := c.client.Do(req)
 	if err != nil {

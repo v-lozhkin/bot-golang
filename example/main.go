@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	botgolang "github.com/mail-ru-im/bot-golang"
+	botgolang "github.com/v-lozhkin/bot-golang"
 )
 
 func main() {
